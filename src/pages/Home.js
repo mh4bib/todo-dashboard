@@ -1,9 +1,11 @@
 import React from 'react';
+import TodoTable from '../components/TodoTable';
 
 const Home = () => {
+    
     return (
         <div>
-            <p>This is Home</p>
+            <TodoTable/>
         </div>
     );
 };
